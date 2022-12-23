@@ -44,6 +44,7 @@ const Navbar = () => {
           color="#fff"
           fontSize={27}
           onClick={() => settoggleMenu(true)}
+          style={{ cursor: "pointer" }}
         />
 
         {toggleMenu && (

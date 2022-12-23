@@ -74,7 +74,7 @@ a {
   justify-content: space-between;
   align-items: center;
 
-  min-height: 100vh;
+  min-height: calc(100vh - 75px);
 }
 
 .app__wrapper_info {
@@ -101,10 +101,6 @@ a {
 .app__wrapper_img-reverse {
   justify-content: flex-start;
   margin-right: 2rem;
-}
-
-.app__wrapper_img img {
-  width: 80%;
 }
 
 .custom__button {

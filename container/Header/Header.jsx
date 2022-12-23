@@ -26,12 +26,12 @@ const Header = () => {
       </div>
       <div className="app__wrapper_img">
         <Image
+          className={styles.welcomeImage}
           src={images.welcome}
           alt="welcome"
           width="0"
           height="0"
           sizes="100vw"
-          style={{ width: "90%", height: "auto" }}
         />
       </div>
     </div>
