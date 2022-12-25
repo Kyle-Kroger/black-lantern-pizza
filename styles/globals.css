@@ -181,14 +181,11 @@ a {
 
   .app__wrapper_img {
     margin: 5rem 0 0 0;
+    justify-content: center;
   }
 
   .app__wrapper_img-reverse {
     margin: 0 0 5rem 0;
-  }
-
-  .app__wrapper_img img {
-    width: 100%;
   }
 }
 
