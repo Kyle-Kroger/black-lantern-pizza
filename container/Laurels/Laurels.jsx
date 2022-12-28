@@ -1,7 +1,18 @@
 import React from "react";
 
+import { SubHeading } from "../../components";
+import { data } from "../../constants";
+
 import styles from "./Laurels.module.css";
 
-const Laurels = () => <div>Laurels</div>;
+const Laurels = () => (
+  <div className={`app__bg app__wrapper section__padding`} id="awards">
+    <div className={`${styles["app__wrapper_info"]}`}>
+      <SubHeading title="Awards & recognition" />
+      <h1 className="headtext__cormorant">Our Laurels</h1>
+    </div>
+    <div className="app__wrapper_img"></div>
+  </div>
+);
 
 export default Laurels;
