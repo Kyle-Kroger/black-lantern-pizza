@@ -12,21 +12,21 @@ const SpecialMenu = () => (
   >
     <div className={`${styles["app__specialMenu-title"]}`}>
       <SubHeading title="Menu that fits your Palatte" />
-      <h1 className={`headtext__cormorant`}>Today's Special</h1>
+      <h1 className={`headtext__cormorant`}>Specials</h1>
     </div>
 
     <div className={`${styles["app__specialMenu-menu"]}`}>
       <div className={`${styles["app__specialMenu-menu_wine"]} flex__center`}>
         <p className={`${styles["app__specialMenu-menu_heading"]}`}>
-          Wine & Beer
+          Signature Pizzas
         </p>
         <div className={`${styles["app__specialMenu-menu_items"]}`}>
-          {data.wines.map((wine, i) => (
+          {data.pizzas.map((pizza, i) => (
             <MenuItem
-              key={wine.title + i}
-              title={wine.title}
-              price={wine.price}
-              tags={wine.tags}
+              key={pizza.title + i}
+              title={pizza.title}
+              price={pizza.price}
+              tags={pizza.tags}
             />
           ))}
         </div>
@@ -35,7 +35,7 @@ const SpecialMenu = () => (
       <div className={`${styles["app__specialMenu-menu_img"]}`}>
         <Image
           className={styles.menuImage}
-          src={"/images/menu.png"}
+          src={"/images/menu-pizza.jpg"}
           alt="menu"
           width={0}
           height={0}
@@ -47,7 +47,7 @@ const SpecialMenu = () => (
         className={`${styles["app__specialMenu-menu_cocktails"]} flex__center`}
       >
         <p className={`${styles["app__specialMenu-menu_heading"]}`}>
-          Cocktails
+          Daily Specials
         </p>
         <div className={`${styles["app__specialMenu-menu_items"]}`}>
           {data.cocktails.map((cocktail, i) => (

@@ -11,7 +11,14 @@ const Navbar = () => {
   return (
     <nav className={styles.app__navbar}>
       <div className={styles["app__navbar-logo"]}>
-        <Image src={images.gericht} alt="logo" width={150} />
+        <Image
+          className={styles.logoImg}
+          src="/images/logo-transparent.png"
+          alt="logo"
+          width="0"
+          height="0"
+          sizes="100vw"
+        />
       </div>
       <ul className={styles["app__navbar-links"]}>
         <li className="p__opensans">

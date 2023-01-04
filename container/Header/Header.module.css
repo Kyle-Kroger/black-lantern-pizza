@@ -7,8 +7,8 @@
   color: var(--color-golden);
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  line-height: 90px;
-  font-size: 90px;
+  line-height: 80px;
+  font-size: 72px;
 }
 
 .app__header-img {
@@ -17,6 +17,14 @@
 
 .welcomeImage {
   width: 90%;
-  max-width: 570px;
+  max-width: 470px;
   height: auto;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .app__header-h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
 }

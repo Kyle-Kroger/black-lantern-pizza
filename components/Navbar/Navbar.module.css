@@ -10,12 +10,17 @@
 
 .app__navbar-logo {
   position: relative;
-  width: 150px;
+  width: 250px;
   height: max-content;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-right: 1rem;
+}
+
+.logoImg {
+  width: 100%;
+  height: 100%;
 }
 
 .app__navbar-links {

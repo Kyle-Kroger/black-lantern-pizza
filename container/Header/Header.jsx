@@ -13,12 +13,13 @@ const Header = () => {
       id="home"
     >
       <div className="app__wrapper_info">
-        <SubHeading title="Chase the new flavor" />
-        <h1 className={styles["app__header-h1"]}>The Key to Fine Dining</h1>
+        <SubHeading title="Chase a new flavor" />
+        <h1 className={styles["app__header-h1"]}>
+          Pizza Perfected over Generations
+        </h1>
         <p className="p__opensans" style={{ margin: "2rem 0" }}>
-          Sit tellus lobortis sed senectus vivamus molestie. Condimentum
-          volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
-          aliquam amet tellus
+          We serve simple, fresh pizza and Italian cuisine made from local
+          ingredients.
         </p>
         <button type="button" className="custom__button">
           Explore Menu
@@ -27,7 +28,7 @@ const Header = () => {
       <div className="app__wrapper_img">
         <Image
           className={styles.welcomeImage}
-          src={images.welcome}
+          src="/images/welcome-pizza.png"
           alt="welcome"
           width="0"
           height="0"

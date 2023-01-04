@@ -37,3 +37,7 @@
   align-items: flex-end;
   margin-left: 0.5rem;
 }
+
+.app__menuitem-price p {
+  font-size: 1.25rem;
+}
