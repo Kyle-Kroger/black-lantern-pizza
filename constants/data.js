@@ -12,23 +12,23 @@ const pizzas = [
     tags: "Sausage, Pepperoni, green peppers, and onion",
   },
   {
-    title: "La Vieillw Rose",
-    price: "$44",
-    tags: "FR | 750 ml",
+    title: "Hawaiian",
+    price: "$20.00",
+    tags: "Pineapple and Canadian Bacon",
   },
   {
-    title: "Rhino Pale Ale",
-    price: "$31",
-    tags: "CA | 750 ml",
+    title: "Vegetarian",
+    price: "$24.00",
+    tags: "Mushrooms, onions, tomatoes, green peppers and black olives",
   },
   {
-    title: "Irish Guinness",
-    price: "$26",
-    tags: "IE | 750 ml",
+    title: "BBQ Chicken",
+    price: "$21.50",
+    tags: "Chicken and cheese with BBQ sauce",
   },
 ];
 
-const cocktails = [
+const specials = [
   {
     title: "Aperol Sprtiz",
     price: "$20",
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { pizzas, cocktails, awards };
+export default { pizzas, specials, awards };

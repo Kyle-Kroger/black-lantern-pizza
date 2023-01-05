@@ -50,7 +50,7 @@ const SpecialMenu = () => (
           Daily Specials
         </p>
         <div className={`${styles["app__specialMenu-menu_items"]}`}>
-          {data.cocktails.map((cocktail, i) => (
+          {data.specials.map((cocktail, i) => (
             <MenuItem
               key={cocktail.title + i}
               title={cocktail.title}
