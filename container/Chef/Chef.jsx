@@ -30,26 +30,20 @@ const Chef = () => (
             sizes="100vw"
           />
           <p className={`p__opensans`}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit.
-            auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget
-            sit. Nulla scelerisque scelerisque congue ac consequat, aliquam
-            molestie lectus eu. Congue iaculis integer curabitur semper sit
-            nunc.
+            As head chef of The Black Lantern, I'm honored to continue the
+            tradition of crafting pizzas that are truly magical. Every
+            ingredient we use is carefully chosen for its quality and flavor,
+            and we infuse each pizza with a touch of enchantment that sets it
+            apart. I'm proud to carry on the legacy of the "witches" who founded
+            this restaurant, and to bring a little bit of magic to every slice
+            we serve.
           </p>
         </div>
       </div>
 
       <div className={`${styles["app__chef-sign"]}`}>
-        <p>Kevin Luo</p>
-        <p className={`p__opensans`}>Chef & Founder</p>
-        <Image
-          className={styles.signImage}
-          src="/images/sign.png"
-          alt="sign image"
-          width="0"
-          height="0"
-          sizes="100vw"
-        />
+        <p>- Chef Isadora O'Sullivan</p>
+        <p className={`p__opensans`}>Part-time Witch, Full-time Chef</p>
       </div>
     </div>
   </div>

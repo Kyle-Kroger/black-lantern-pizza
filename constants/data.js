@@ -74,8 +74,8 @@ const awards = [
   },
   {
     imgUrl: images.award03,
-    title: "Outstanding Chef",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Best Pizza to Cure a Curse",
+    subtitle: "from the Association of Spellcasters and Healers",
   },
 ];
 

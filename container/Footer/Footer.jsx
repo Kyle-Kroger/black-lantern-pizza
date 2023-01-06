@@ -13,13 +13,14 @@ const Footer = () => (
     <div className={`${styles["app__footer-links"]}`}>
       <div className={styles["app__footer-links_contacts"]}>
         <h1 className={`${styles["app__footer-headtext"]}`}>Contact Us</h1>
-        <p className="p__opensans">Address goes here</p>
+        <p className="p__opensans">14309 Misty Night Lane</p>
+        <p className="p__opensans">Arcadia, MI - 48005</p>
         <p className="p__opensans">+1 212-344-1230</p>
       </div>
       <div className={`${styles["app__footer-links_logo"]}`}>
         <Image
           className={styles.logoImg}
-          src="/images/gericht.png"
+          src="/images/logo-transparent.png"
           alt="footer_image"
           width="0"
           height="0"

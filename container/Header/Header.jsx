@@ -18,8 +18,9 @@ const Header = () => {
           Pizza Perfected over Generations
         </h1>
         <p className="p__opensans" style={{ margin: "2rem 0" }}>
-          We serve simple, fresh pizza and Italian cuisine made from local
-          ingredients.
+          Step into the world of magic and deliciousness at The Black Lantern.
+          Our enchanting pizza restaurant offers a cozy and inviting atmosphere
+          where you can enjoy a slice of heaven with family and friends.
         </p>
         <button type="button" className="custom__button">
           Explore Menu

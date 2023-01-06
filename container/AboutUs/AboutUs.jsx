@@ -18,9 +18,14 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About Us</h1>
         <Image src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+          Welcome to The Black Lantern, where we're serving up slices of magic
+          in every bite. Our pizzas are crafted with the finest ingredients,
+          from the freshest vegetables to the most savory meats, and we never
+          skimp on the cheese. We believe that a great pizza is more than just a
+          meal – it's an experience that brings people together. That's why
+          we've created a warm and welcoming atmosphere that's perfect for
+          enjoying a slice with friends or family. So come on in and taste the
+          magic for yourself at The Black Lantern.
         </p>
         <button type="button" className="custom__button">
           Know More
@@ -43,9 +48,13 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our History</h1>
         <Image src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+          Founded over a century ago by a coven of witches, The Black Lantern
+          has been serving up spellbinding pizzas to the community ever since.
+          The original recipe for the restaurant's signature crust was
+          discovered during a séance, and the secret has been passed down
+          through generations. Today, The Black Lantern remains a beloved
+          institution, where locals and visitors alike come to indulge in the
+          magic of great pizza.
         </p>
         <button type="button" className="custom__button">
           Know More

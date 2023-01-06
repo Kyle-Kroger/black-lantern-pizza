@@ -37,9 +37,9 @@ const Gallery = () => {
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: "#aaa", marginTop: "2rem" }}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim adipisci
-          ducimus dolorum, quos impedit quo laboriosam voluptate repudiandae
-          praesentium.
+          Explore the magic of The Black Lantern through our photo gallery,
+          showcasing the ambiance and delicious food that make our restaurant a
+          truly enchanting experience.
         </p>
         <button type="button" className="custom__button">
           View More

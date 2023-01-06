@@ -12,7 +12,8 @@ const FindUs = () => (
         Find Us
       </h1>
       <div className="app__wrapper-content">
-        <p className="p__opensans">Here is an address for the place</p>
+        <p className="p__opensans">14309 Misty Night Lane</p>
+        <p className="p__opensans">Arcadia, MI - 48005</p>
         <p
           className="p__cormorant"
           style={{ color: "#DCCA87", margin: "2rem 0" }}
