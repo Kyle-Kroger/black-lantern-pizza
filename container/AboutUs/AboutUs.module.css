@@ -16,15 +16,15 @@
 .app__aboutus-content {
   width: 100%;
   z-index: 2;
+  display: flex;
 }
 
 .app__aboutus-content_about {
   flex: 1;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-end;
   flex-direction: column;
-
   text-align: right;
 }
 
@@ -45,10 +45,9 @@
 .app__aboutus-content_history {
   flex: 1;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-
   text-align: left;
 }
 
@@ -71,6 +70,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0;
   }
 
   .knife {

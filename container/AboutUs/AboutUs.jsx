@@ -13,10 +13,13 @@ const AboutUs = () => (
       <Image className={styles.gOverlay} src={images.G} alt="G letter" />
     </div>
 
-    <div className={`${styles["app__aboutus-content"]} flex__center`}>
+    <div className={`${styles["app__aboutus-content"]}`}>
       <div className={styles["app__aboutus-content_about"]}>
-        <h1 className="headtext__cormorant">About Us</h1>
-        <Image src={images.spoon} alt="about_spoon" className="spoon__img" />
+        <div>
+          <h1 className="headtext__cormorant">About Us</h1>
+          <Image src={images.spoon} alt="about_spoon" className="spoon__img" />
+        </div>
+
         <p className="p__opensans">
           Welcome to The Black Lantern, where we're serving up slices of magic
           in every bite. Our pizzas are crafted with the finest ingredients,
@@ -24,8 +27,7 @@ const AboutUs = () => (
           skimp on the cheese. We believe that a great pizza is more than just a
           meal – it's an experience that brings people together. That's why
           we've created a warm and welcoming atmosphere that's perfect for
-          enjoying a slice with friends or family. So come on in and taste the
-          magic for yourself at The Black Lantern.
+          enjoying a slice with friends or family.
         </p>
         <button type="button" className="custom__button">
           Know More
@@ -45,8 +47,11 @@ const AboutUs = () => (
       </div>
 
       <div className={styles["app__aboutus-content_history"]}>
-        <h1 className="headtext__cormorant">Our History</h1>
-        <Image src={images.spoon} alt="about_spoon" className="spoon__img" />
+        <div>
+          <h1 className="headtext__cormorant">Our History</h1>
+          <Image src={images.spoon} alt="about_spoon" className="spoon__img" />
+        </div>
+
         <p className="p__opensans">
           Founded over a century ago by a coven of witches, The Black Lantern
           has been serving up spellbinding pizzas to the community ever since.
