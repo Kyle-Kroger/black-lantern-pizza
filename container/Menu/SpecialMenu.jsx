@@ -47,7 +47,7 @@ const SpecialMenu = () => (
         className={`${styles["app__specialMenu-menu_cocktails"]} flex__center`}
       >
         <p className={`${styles["app__specialMenu-menu_heading"]}`}>
-          Daily Specials
+          Today's Specials
         </p>
         <div className={`${styles["app__specialMenu-menu_items"]}`}>
           {data.specials.map((special, i) => (

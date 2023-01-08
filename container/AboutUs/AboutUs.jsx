@@ -10,7 +10,14 @@ const AboutUs = () => (
     id="about"
   >
     <div className={`${styles["app__aboutus-overlay"]} flex__center`}>
-      <Image className={styles.gOverlay} src={images.G} alt="G letter" />
+      <Image
+        className={styles.gOverlay}
+        src={"/images/Fireworks.png"}
+        alt="G letter"
+        width={0}
+        height={0}
+        sizes="100vw"
+      />
     </div>
 
     <div className={`${styles["app__aboutus-content"]}`}>

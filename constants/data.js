@@ -30,29 +30,19 @@ const pizzas = [
 
 const specials = [
   {
-    title: "Aperol Sprtiz",
+    title: "Lasagna Bolognese with Garlic Bread",
     price: "$20",
-    tags: "Aperol | Villa Marchesi prosecco | soda | 30 ml",
+    tags: "Layers of pasta, ground beef, and béchamel sauce, baked to perfection and served with a side of crispy garlic bread",
   },
   {
-    title: "Dark 'N' Stormy",
+    title: "Fettuccine Alfredo with Grilled Chicken and Broccoli",
     price: "$16",
-    tags: "Dark rum | Ginger beer | Slice of lime",
+    tags: "Creamy fettuccine pasta with grilled chicken and broccoli, topped with Parmesan cheese.",
   },
   {
-    title: "Daiquiri",
-    price: "$10",
-    tags: "Rum | Citrus juice | Sugar",
-  },
-  {
-    title: "Old Fashioned",
-    price: "$31",
-    tags: "Bourbon | Brown sugar | Angostura Bitters",
-  },
-  {
-    title: "Negroni",
-    price: "$26",
-    tags: "Gin | Sweet Vermouth | Campari | Orange garnish",
+    title: "Spaghetti Carbonara with Grilled Asparagus",
+    price: "$18",
+    tags: "Classic spaghetti dish with a creamy egg and pancetta sauce, served with grilled asparagus on the side",
   },
 ];
 

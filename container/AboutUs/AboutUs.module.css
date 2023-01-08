@@ -8,9 +8,10 @@
 }
 
 .gOverlay {
-  width: 391px;
-  height: 415px;
+  width: 40%;
+  height: auto;
   z-index: 0;
+  filter: brightness(0.3);
 }
 
 .app__aboutus-content {
