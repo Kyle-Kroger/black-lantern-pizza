@@ -49,23 +49,23 @@ const specials = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: "Bib Gourmond",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Best Pizza Crust",
+    subtitle: "From the Pizza Pros",
   },
   {
     imgUrl: images.award01,
-    title: "Rising Star",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Family-friendly atmosphere",
+    subtitle: "From the Association of Pizza Moms",
   },
   {
     imgUrl: images.award05,
-    title: "AA Hospitality",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Local Favorite",
+    subtitle: "From Arcadia Valley Style",
   },
   {
-    imgUrl: images.award03,
+    imgUrl: images.award01,
     title: "Best Pizza to Cure a Curse",
-    subtitle: "from the Association of Spellcasters and Healers",
+    subtitle: "from the Society of Spellcasters and Healers",
   },
 ];
 

@@ -9,7 +9,7 @@ const Chef = () => (
     <div className={`app__wrapper_img app__wrapper_img-reverse`}>
       <Image
         className={styles.chefImage}
-        src="/images/chef.png"
+        src="/images/isodora.png"
         alt="chef image"
         width="0"
         height="0"

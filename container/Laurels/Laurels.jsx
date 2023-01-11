@@ -31,7 +31,7 @@ const Laurels = () => (
   <div className={`app__bg app__wrapper section__padding`} id="awards">
     <div className="app__wrapper_info">
       <SubHeading title="Awards & recognition" />
-      <h1 className="headtext__cormorant">Our Laurels</h1>
+      <h1 className="headtext__cormorant">What Our Friends Say</h1>
 
       <div className={`${styles["app__laurels_awards"]}`}>
         {data.awards.map((award) => (
@@ -42,7 +42,7 @@ const Laurels = () => (
     <div className="app__wrapper_img">
       <Image
         className={styles.laurelsImg}
-        src={images.laurels}
+        src="/images/award-pizza.jpg"
         alt="laurels"
         width="0"
         height="0"

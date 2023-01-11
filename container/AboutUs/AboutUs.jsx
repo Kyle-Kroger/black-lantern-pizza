@@ -37,7 +37,7 @@ const AboutUs = () => (
           enjoying a slice with friends or family.
         </p>
         <button type="button" className="custom__button">
-          Know More
+          Learn More
         </button>
       </div>
 
@@ -69,7 +69,7 @@ const AboutUs = () => (
           magic of great pizza.
         </p>
         <button type="button" className="custom__button">
-          Know More
+          Learn More
         </button>
       </div>
     </div>

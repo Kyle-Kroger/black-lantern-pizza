@@ -12,10 +12,11 @@ import { images } from "../../constants";
 import styles from "./Gallery.module.css";
 
 const imageArr = [
-  images.gallery01,
-  images.gallery02,
-  images.gallery03,
-  images.gallery04,
+  "pizza-one.jpg",
+  "alfredo.jpg",
+  "spaghetti-carbonara.jpg",
+  "gallery02.png",
+  "gallery03.png",
 ];
 
 const Gallery = () => {
@@ -57,7 +58,7 @@ const Gallery = () => {
             >
               <Image
                 className={styles.galleryImg}
-                src={image}
+                src={`/images/${image}`}
                 alt="gallery_image"
                 width="0"
                 height="0"
